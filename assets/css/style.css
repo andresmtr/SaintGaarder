@@ -163,6 +163,52 @@ width: 100%;
 min-height: 350px;
 border: 1px solid #e1e1e1;
 }
+
+
+}
+/*=======================================
+    Imagen
+==================================================*/
+
+.image img
+            {
+                display: block;
+                width: 100%;
+                border-radius: 6px;
+            }
+
+            .image.featured
+            {
+                display: block;
+                width: 100%;
+                margin: 0 0 2em 0;
+            }
+            
+            .image.full
+            {
+                display: block;
+                width: 100%;
+                margin: 0 0 2em 0;
+            }
+            
+            .image.left
+            {
+                float: left;
+                margin: 0 2em 2em 0;
+            }
+            
+            .image.centered
+            {
+                display: block;
+                margin: 0 0 2em 0;
+            }
+
+                .image.centered img
+                {
+                    margin: 0 auto;
+                    width: auto;
+                }
+
 /*=======================================
     FOOTER STYLES
 ==================================================*/
