@@ -173,7 +173,10 @@
 
 		.image
 		{
-			display: inline-block;
+			/* display: inline-block;*/
+			 max-width: 20%;
+             height: auto;
+             width: auto/9; /* Bug de ie8 */
 		}
 		
 			.image img
@@ -260,13 +263,19 @@
 
 	#header
 	{
-		position: relative;
+		position: 20%;
 		background: #ddd url(../images/SG1.jpg) no-repeat center;
-		background-size: cover;
+		background-size: 100%;
 	}
 
 	#logo
 	{
+    width: 100 &#37; ; /* en porcentaje (el highlight del foro lo trasforma) */
+    height: 100 %;
+    top:0;
+    left:0;
+    position:fixed;
+    z-index: -1;  
 	}
 	
 	#nav
@@ -275,6 +284,7 @@
 
 		#nav ul
 		{
+			position: relative;
 			margin: 0;
 		}
 	
@@ -328,7 +338,7 @@
 .Contenedor
     {
         width:90%;
-        max-width:1000px;
+        max-width:80%px;
         margin:0 auto;
         overflow:hidden;
 
