@@ -1,37 +1,30 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html lang="es">
+
 <head>
-    <meta charset="utf-8">
-
+    
+    <meta charset="utf-8" />
     <title>Saint Gaarder</title>
-
+    <!-- <style type="text/css" link=""></style>-->
     <link rel="stylesheet" type="text/css" href="css\style_app.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- 
-      
-      
- 
-
 </head>
+
+<!-- <body ng-app="">-->
 <body>
-<!--<div class="container-fluid">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 text-center">
-         <!--   <img class="col-xs-12 col-sm-12 col-md-2 col-lg-2 logo" src="img/logo.jpg">-->
-           <!-- <div class="container">
-         
-              
-</div>-->
 
-<header> id="header" class="header">
+    <header id="header" class="header">
         <div class="div_logo">
-            <img class="logo" src="Img/SG1.jpg" alt="SaintGaarder">
+            <img class="logo" src="img/SG1.jpg" alt="Unad">
         </div>
+        
+        
 
+        <!-- <a href="https://twitter.com/universidadunad?lang=es"><img src="img/twitter.PNG" width="50" height="50"><br></a>-->
 
-          
-
-           <!--<<img src="Img/SG1.jpg" width="800" height="244" ><br>-->
+        <!-- <div align=down>-->
+            <!-- <div href=''>-->
+               
 
            <a href="https://www.facebook.com/saintgaarder/?ref=bookmarks" target="_blank"><img src="Img/face.jpg" width="40" height="40">
            <a href="https://www.instagram.com/saintgaarder/" target="_blank"><img src="Img/inst.jpg" width="40" height="40">
@@ -39,32 +32,54 @@
            <a href="https://itunes.apple.com/co/artist/saint-gaarder/1308997597" target="_blank"><img src="Img/Apple-Music-logo-400x400.PNG" width="50" height="40"> 
            <a href="http://www.deezer.com/artist/13516129" target="_blank"><img src="Img/Dezzer.PNG" width="40" height="40"> 
           <a href="https://www.amazon.com/s/ref=ntt_srch_drd_B0777RJFSZ?ie=UTF8&field-keywords=Saint%20Gaarder&index=digital-music&search-type=ss" target="_blank"><img src="Img/amazon.jpg" width="40" height="40"> 
-           <BR>
-          
-
-</header>
 
 
+            <!--</a>--><!-- <script type='text/javascript' src='https://www.counter12.com/ad.js?id=B2ddaZ9ZCcd5zc76'></script></div>-->
+    </header>
 
+    <nav class="nav">
+        <ul>
+            <li onclick="viewContent('inicio')">Inicio</li>
+            <li onclick="viewContent('importancia')">Importancia</li>
+            <li onclick="viewContent('conceptos')">Conceptos</li>
+            <li onclick="viewContent('consecuencia')">Consecuencias</li>
+            <li onclick="viewContent('multimedia')">Multimedia</li>
+            <li onclick="viewContent('referencias')">Referencias</li>
+            <li onclick="viewContent('colaboradores')">Colaboradores</li>
+        </ul>
+    </nav>
+      
+    <div class="main_content">
+        <section class="section" id="section">
+        </section>
+    </div>
 
-
-
-
-<footer class="footer">
-
+    <footer class="footer">
+        <div class="div_footer">
+            <div class="logo_footer div">
+                <img class="img_footer"  src="img/logoUNADgrisInferior.png" alt="Unad">
+            </div>
+            <div class="info_sede div">
+                <p> Sede nacional José Celestino Mutis: Calle 14 sur No. 14 - 23 PBX:(+57) 1 344 3700 Bogotá D.C., Colombia Línea nacional gratuita desde Colombia: 018000115223 Atención al usuario: atencionalusuario@unad.edu.co Anticorrupción: anticorrupcion@unad.edu.co Buzón de notificaciones
+                </p>
+            </div>
+            <div class="phones div">
+                <p> 490 Sawgrass Corporate Parkway Suite 120, Sunrise, FL 33325 Phones (954) 389 2277 - (954) 389 7188 Toll Free (877) 385 5124) Fax (954) 667 6200
+                </p>
+            </div>
+        </div>
 
         <div class="copyright div">            
             <hr>
             <p>
-                Copyright Saint Gaarder
+                Institución de Educación Superior sujeta a inspección y vigilancia por el Ministerio de Educación Nacional
+                <br> Última actualización ( 2017-10-23 ) © Copyright UNAD 2017 - Powered by Joomla ( Atención al usuario ) ( Política de privacidad ) ( Mapa del sitio )
             </p>
         </div>
         
 
-</footer>
-
-    
-    
-</div>
+    </footer>
+    <script src="js/view_content.js"></script>
 </body>
+
 </html>
