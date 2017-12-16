@@ -3,7 +3,7 @@ html,body{
     padding: 0;
 }   
 
-.header{
+header{
     width: 100%;
     margin: 3%;
     /*height: 30%;
@@ -19,11 +19,15 @@ html,body{
 .div_logo{
     width: 80%;
     height: 30%;
+    display:auto;
+    margin:auto;
 }
 
 .logo{
 	width: 100%;
     height: 100%;
+    display:auto;
+    margin:auto;
     /*margin: 1%;*/
 }
 
@@ -49,6 +53,11 @@ html,body{
     height: 50;
     /*margin: 1%;*/
 }
+
+nav{
+
+}
+
 #btn-menu{
     display: none;
 
@@ -71,7 +80,9 @@ header label: hover{
     margin:0;
     list-style:none;
     padding:0;
-    display:flex;
+    display:none;
+
+
 }
 
 .menu li a {
