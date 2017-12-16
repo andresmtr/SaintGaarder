@@ -1,11 +1,18 @@
-html,body{
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
     margin: 0;
     padding: 0;
+    background:#FFFFFA;
 }   
 
 header{
     width: 100%;
-    margin: 3%;
+    /*margin: 3%;
     /*height: 30%;
     overflow: hidden;
     display: inline-flex;
@@ -31,63 +38,42 @@ header{
     /*margin: 1%;*/
 }
 
-.title{
-    font-family: candara;
-    width: 50%;
-    overflow: hidden;
-    height: 100%;
-}
-
-.title h1{
-    margin-left: 26%;
-    margin-top: 9%;
-}
-
-.div_sm{
-    width: 100%;
-    height: 100%;
-}
-
-.sm{
+.Ml{
     width: 50;
     height: 50;
     /*margin: 1%;*/
 }
 
-nav{
+header nav {
+    width:90%;
+    max-width:1000px;
+    margin:20px auto;
+
+
 
 }
-
-#btn-menu{
-    display: none;
-
-}
-header label{
-    display: none;
-    width: 30px;
-    height: 30px;
-    height:30px;
-    padding:10px;
-    border-right: 1px solid #fff;
-
-}
-
-}
-header label: hover{
-    cursor: pointer;
-}
-.menu ul {
-    margin:0;
-    list-style:none;
-    padding:0;
+.menu_bar{
     display:none;
 
-
+}
+header nav ul {
+    overflow:hidden;
+    list-style:none;
 }
 
-.menu li a {
+header nav ul li {
+    float:left;
+}
+
+header nav ul li a{
+    
+    padding:20px;
     display:block;
-    padding: 15px 20px; 
-
-
+    text-decoration:none;
 }
+
+header nav ul li a:hover{
+    
+background:#037E8C;
+}
+
