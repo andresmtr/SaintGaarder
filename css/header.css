@@ -7,7 +7,12 @@
 body{
     margin: 0;
     padding: 0;
-    background:#FFFFFA;
+    background:#C0C0C0;
+    font-weight: bold;
+    
+    color:#FFFFFF;
+
+
 }   
 
 header{
@@ -39,8 +44,10 @@ header{
 }
 
 .Ml{
+
     width: 50;
     height: 50;
+
     /*margin: 1%;*/
 }
 
@@ -48,8 +55,8 @@ header nav {
     width:90%;
     max-width:1000px;
     margin:20px auto;
-
-
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .menu_bar{
@@ -59,10 +66,12 @@ header nav {
 header nav ul {
     overflow:hidden;
     list-style:none;
+    background-color: #FDEBD0;
 }
 
 header nav ul li {
     float:left;
+
 }
 
 header nav ul li a{
@@ -70,10 +79,11 @@ header nav ul li a{
     padding:20px;
     display:block;
     text-decoration:none;
+    color: #566573;
 }
 
 header nav ul li a:hover{
     
-background:#037E8C;
+background:#FEF5E7;
 }
 
