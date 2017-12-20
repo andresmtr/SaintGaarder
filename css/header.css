@@ -9,11 +9,14 @@ body{
     padding: 0;
     background:#C0C0C0;
     font-weight: helvetica;
+    font-size: 120%;
     
     color:#FFFFFF;
 
 
 }   
+
+/* tiene referencia al Header   */
 
 header{
     width: 100%;
@@ -79,6 +82,8 @@ header nav ul li {
     overflow:hidden;
     /*float:left;*/
     display: inline-block;
+    float:none;
+    border-bottom:1px solid rgba(255,255,255, .3);
 
  
 
@@ -127,3 +132,43 @@ background:#FEF5E7; /*cambia el color cuando pasas el mouse*/
 
 
 }
+
+
+
+/*footer*/
+
+/*Logos redes sociales*/
+
+.footer {
+
+}
+
+
+.Ml{
+
+    width: 50;
+    height: 50;
+
+    /*margin: 1%;*/
+}
+
+
+/*section*/
+
+h1 {
+   width:78%;
+   margin:20px auto;
+   font-size: 100%;
+   position: relative;
+   Text-align:justify 
+
+}
+
+.Ml2{
+
+    width: 200;
+    height: 200;
+
+    /*margin: 1%;*/
+}
+
