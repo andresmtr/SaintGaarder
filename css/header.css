@@ -47,7 +47,7 @@ header{
 header nav {
     width:100%;
     max-width:1000px;
-    margin:20px auto;*/
+    margin:20px auto;
     
 
     
@@ -66,7 +66,7 @@ header nav ul {
     float: left;
     list-style:none;
     background-color: #FDEBD0;
-    text-align: center;*/
+    text-align: center;
 
 
    
@@ -78,7 +78,7 @@ header nav ul li {
     text-align: center;
     overflow:hidden;
     /*float:left;*/
-    display: inline-block;*/
+    display: inline-block;
 
  
 
@@ -90,16 +90,16 @@ header nav ul li a{
     padding:20px;
     display:block;
     text-decoration:none;
-    color: #566573; *//*color de la letra*/
+    color: #566573; /*color de la letra*/
 }
 
 header nav ul li a:hover{
     
-background:#FEF5E7; *//*cambia el color cuando pasas el mouse*/
+background:#FEF5E7; /*cambia el color cuando pasas el mouse*/
 }
 
 
-@media screen and (max-width:800px){
+/*@media screen and (max-width:800px){
     header nav {
         width:80%;
         height:100%;
