@@ -7,7 +7,8 @@
 body{
     margin: 0;
     padding: 0;
-    background:#C0C0C0;
+    /*background:#C0C0C0;*/
+    /*background:#C0C0C0;*/
     font-weight: helvetica;
     font-size: 120%;
     
@@ -146,8 +147,8 @@ background:#FEF5E7; /*cambia el color cuando pasas el mouse*/
 
 .Ml{
 
-    width: 50;
-    height: 50;
+    width: 40;
+    height: 40;
 
     /*margin: 1%;*/
 }
@@ -156,7 +157,7 @@ background:#FEF5E7; /*cambia el color cuando pasas el mouse*/
 /*section*/
 
 h1 {
-   width:78%;
+   width:60%;
    margin:20px auto;
    font-size: 100%;
    position: relative;
