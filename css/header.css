@@ -32,8 +32,8 @@ header{
 /*estructura del logo* en la cabecera de la pagina*/
 
 .div_logo{
-    width: 60%;
-    height: 53%;
+    width: 80%;
+    height: 40%;
     display:auto;
     margin:auto;
 }
@@ -146,7 +146,7 @@ background:#FEF5E7; /*cambia el color cuando pasas el mouse*/
 /*section*/
 
 h1 {
-   width:60%;
+   width:70%;
    margin:20px auto;
    font-family: sans-serif;
    text-decoration:none;
@@ -159,7 +159,7 @@ h1 {
 
 
 hr {
-  height: 20px;
+  height: 10px;
   width: 40%;
   margin:20px auto;
   border-color: #FDEBD0;
@@ -169,7 +169,7 @@ hr {
 
 p {
   
-   width:60%;
+   width:70%;
    margin:20px auto;
    font-family: sans-serif;
    font-size: auto;
