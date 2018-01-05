@@ -34,7 +34,7 @@ header{
 /*estructura del logo* en la cabecera de la pagina*/
 
 .div_logo{
-    width: 80%;
+    max-width: 80%;
     height: 45%;
     display:auto;
     margin:auto;
