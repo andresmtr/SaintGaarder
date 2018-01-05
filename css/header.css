@@ -74,9 +74,10 @@ header nav ul {
     overflow:hidden;
     float: left;
     list-style:none;
-    background-color: #FDEBD0;
+    background-color: #000000;
     text-align: center;
     font-family: sans-serif;
+
 
 
    
@@ -105,12 +106,12 @@ header nav ul li a{
     text-decoration:none;
     font-family: sans-serif;
     /*color: #566573; /*color de la letra*/
-    color: #000000
+    color: #ffffff
 }
 
 header nav ul li a:hover{
     
-background:#FEF5E7; /*cambia el color cuando pasas el mouse*/
+background:#800000; /*cambia el color cuando pasas el mouse*/
 }
 
 
@@ -165,7 +166,7 @@ hr {
   width: 40%;
   margin:20px auto;
   border-color: #FDEBD0;
-  background-color: #FDEBD0;
+  background-color: #000000;
 }
 
 
