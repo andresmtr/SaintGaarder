@@ -58,6 +58,7 @@ header nav {
     width:100%;
     max-width:1000px;
     margin:20px auto;
+    position: relative;
     
 
     
@@ -72,17 +73,13 @@ header nav ul {
     width: 100%;
 
 
+
     overflow:hidden;
     float: left;
     list-style:none;
     background-color: #000000;
     text-align: center;
     font-family: sans-serif;
-
-
-
-   
-
 
 }
 
@@ -94,9 +91,6 @@ header nav ul li {
     float:none;
 
     /*border-bottom:1px solid rgba(255,255,255, .3);*/
-
- 
-
 
 }
 
@@ -114,6 +108,53 @@ header nav ul li a:hover{
     
 background:#800000; /*cambia el color cuando pasas el mouse*/
 }
+
+
+
+
+@media only screen and (max-width : 500px) {
+    nav {
+        border-bottom: 0;
+        height: auto;
+    }
+ 
+    nav ul {
+        display: none;
+        height: auto;
+        width: 100%;
+    }
+ 
+    nav li {
+        width: 50%;
+        float: left;
+        position: relative;
+    }
+ 
+    nav a {
+        text-align: left;
+        width: 100%;
+        text-indent: 25px;
+    }
+ 
+    nav a#pull {
+        display: block;
+        background-color: #666;
+        width: 100%;
+        position: relative;
+    }
+ 
+    nav a#pull:after {content:"";
+        background: url('menuIcon.png') no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+}
+
+
 
 
 /*footer*/
@@ -167,7 +208,7 @@ hr {
   height: 10px;
   width: 40%;
   margin:20px auto;
-  border-color: #FDEBD0;
+  border-color: #FFFFFF;
   background-color: #000000;
 }
 
