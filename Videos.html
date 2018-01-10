@@ -1,14 +1,35 @@
 <HTML>
 <HEAD>
   
-
+  
     <meta charset="utf-8" />
     <title>Saint Gaarder</title>
     <!-- <style type="text/css" link=""></style>-->
     <link rel="stylesheet" type="text/css" href="css\style_app.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <meta name= "viewport" content= "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
     <link href='img/IconPng.png' rel='shortcut icon' type='image/png'/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+$(function() {
+    var pull = $('#pull');
+    menu = $('nav ul');
+    menuHeight = menu.height();
+
+    $(pull).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+    });
+});
+
+$(window).resize(function(){
+    var w = $(window).width();
+    if(w > 320 && menu.is(':hidden')) {
+        menu.removeAttr('style_app.css');
+    }
+});
+</script>
+
+    
 
 
 </HEAD>
@@ -34,11 +55,7 @@
 
 <br>
 
-<div class="menu_bar">
-  <a href="#" class="bt-menu"><span class="icon-menu-button_icon-icons.com_72989" >Menu</a>
 
-
-</div>
 
 <!-- NAV -->
 
