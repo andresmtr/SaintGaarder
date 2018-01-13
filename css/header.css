@@ -220,12 +220,12 @@ h1 {
 
 
 hr {
-    width: 100%;
+    
     height: auto;
     padding: 0;
     margin: 0 auto;
-    width: 600px;
-    height: 20px;
+    width: 100px;
+    
     background-color: #490303;
     text-align: center;
     font-family: sans-serif;
